@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Navbar Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #2f855a;
+      padding: 10px 20px;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+    .navbar .logo {
+      font-size: 1.5em;
+    }
+    .navbar .nav-links {
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">MySite</div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="https://www.geeksforgeeks.org/courses?source=google&medium=cpc&device=c&keyword=gfg&matchtype=p&campaignid=20039445781&adgroup=147845288105&gad_source=1&gad_campaignid=20039445781&gbraid=0AAAAAC9yBkAvwz0HQutayw8HD_xi3I_pM&gclid=CjwKCAjwhuHEBhBHEiwAZrvdcktKSVBVXDCu9CEfSkWqdrxXoRVgg0UNEtSWQYmQ9JOgbjL77BtAExoCMBQQAvD_BwE" target="_blank">GFG Courses</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+    </div>
+  </nav>
+
+</body>
+</html>
+

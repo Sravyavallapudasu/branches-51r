@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  background: linear-gradient(to bottom right, #e74c3c, #e67e22);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  font-family: Arial, sans-serif;
+  transition: 
+    background 0.6s ease,
+    color 0.6s ease,
+    transform 0.6s ease;
+}
+
+/* On hover, change gradient, text color, and apply transforms */
+.card:hover {
+  background: linear-gradient(to bottom right, #00c6ff, #fbc2eb);
+  color: blue;
+  transform: scale(1.05) rotate(5deg) skew(5deg, 5deg) translate(10px, -10px);
+}
+</style>
+</head>
+<body>
+
+<div class="card">Hover Me!</div>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display:grid;
+            width: 100%;
+            height: 100vh;
+            gap: 20px;
+            grid-template-areas:
+            'img1 img2 img3 img4 img4'
+            'img5 img6 img3 img7 img7'
+            'img8 img6 img9 img7 img7';
+            grid-auto-rows: 32%;
+        }
+        .parent>img{
+            width: 100%;
+            height: 100%;
+        }
+        .img1{
+            grid-area: img1;
+        }
+        .img2{
+            grid-area: img2;
+        }
+        .img3{
+            grid-area: img3;
+        }
+        .img4{
+            grid-area: img4;
+        }
+        .img5{
+            grid-area: img5;
+        }
+        .img6{
+            grid-area: img6;
+        }
+        .img7{
+            grid-area: img7;
+        }
+        .img8{
+            grid-area: img8;
+        }
+        .img9{
+            grid-area: img9;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <img src="https://plus.unsplash.com/premium_photo-1669750817438-3f7f3112de8d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmVhY2glMjBtb3VudGFpbnxlbnwwfHwwfHx8MA%3D%3D" alt="" class="img1">
+        <img src="https://live-liamtra-blog.s3.ap-south-1.amazonaws.com/2021/01/Beach-Lover-3-1024x546.jpg" alt="" class="img2">
+        <img src="https://madeinindiamagazine.com.au/wp-content/uploads/2023/01/varkala.jpg" alt="" class="img3">
+        <img src="https://images.pexels.com/photos/2521619/pexels-photo-2521619.jpeg?cs=srgb&dl=pexels-troy-squillaci-1303476-2521619.jpg&fm=jpg" alt="" class="img4">
+        <img src="https://plus.unsplash.com/premium_photo-1661874985051-a487ca2fed29?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bW91bnRhaW4lMjBiZWFjaHxlbnwwfHwwfHx8MA%3D%3D" alt="" class="img5">
+        <img src="https://www.shutterstock.com/image-photo/panoramic-beach-view-on-mediterranean-600nw-2494057245.jpg" alt="" class="img6">
+        <img src="https://www.exoticca.com/wp-content/uploads/2021/08/mountain-and-beach-destinations-750x500.jpg" alt="" class="img7">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYzUmlwGWzWDYTlScxtP1ZOEGJsm8G1S8ABg&s" alt="" class="img8">
+        <img src="https://www.shutterstock.com/image-photo/distance-unrecognizable-people-walking-on-600nw-2222450217.jpg" alt="" class="img9">
+    </div>
+</body>
+</html>
